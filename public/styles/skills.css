@@ -1,0 +1,47 @@
+.skills {
+  text-align: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.python-icon {
+  height: 10rem;
+}
+
+.html-icon {
+  height: 10rem;
+}
+
+.css-icon {
+  height: 10rem;
+}
+
+.java-icon {
+  height: 10rem;
+}
+
+.c-icon {
+  height: 10rem;
+}
+
+.git-icon {
+  height: 10rem;
+}
+
+.react-icon {
+  height: 10rem;
+}
+
+.mongo-icon {
+  height: 10rem;
+}
+
+.icon-wrapper1{
+  display: inline-block;
+  background-color: white;
+}
+
+.icon-wrapper2{
+  display: inline-block;
+  background-color: white;
+}
