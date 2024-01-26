@@ -4,44 +4,36 @@
   margin-top: 3rem;
 }
 
-.python-icon {
+.python-icon, .html-icon, .css-icon, .java-icon, .c-icon, .git-icon, .react-icon, .mongo-icon {
   height: 10rem;
+  width: 10rem;
+  box-shadow: 0px 2px 15px 2px;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  border-radius: 10px;
 }
 
-.html-icon {
-  height: 10rem;
+.python-icon, .html-icon, .css-icon, .java-icon {
+  margin-bottom: 1rem;
 }
 
-.css-icon {
-  height: 10rem;
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.java-icon {
-  height: 10rem;
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.c-icon {
-  height: 10rem;
-}
-
-.git-icon {
-  height: 10rem;
-}
-
-.react-icon {
-  height: 10rem;
-}
-
-.mongo-icon {
-  height: 10rem;
-}
-
-.icon-wrapper1{
-  display: inline-block;
-  background-color: white;
-}
-
-.icon-wrapper2{
-  display: inline-block;
-  background-color: white;
+.line {
+  border-color: black;
+  border-width: 0.1rem;
+  margin-top: 4rem;
 }
