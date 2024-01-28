@@ -1,0 +1,36 @@
+footer {
+  background-color: rgb(52, 52, 52);
+  padding: 0.5rem;
+  text-align: center;
+  margin: 2rem 0;
+  
+}
+
+.footer-content {
+  margin: 0 auto;
+}
+
+.copy {
+  margin: 0.5rem;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 1%;
+  bottom: 2%;
+  cursor: pointer;
+}
+
+.up-arrow-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.up-arrow-icon:active {
+  height: 2.5rem;
+}
+
+.up-arrow-icon:hover {
+  background-color: rgb(92, 92, 95);
+  border-radius: 5px;
+}

@@ -12,17 +12,18 @@
     <link rel="stylesheet" href="styles/work-experience.css">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <title>Twitter Clone</title>
 
     <div class="nav-bar">
       <div class="name-section">Landon Williams</div>
       <div class="menu">
-        <p class="nav-link">About</p>
-        <p class="nav-link">Work Experience</p>
-        <p class="nav-link">Skills</p>
-        <p class="nav-link">Projects</p>
-        <p class="nav-link">Contact</p>
+        <p class="nav-link" id="about-btn">About</p>
+        <p class="nav-link" id="skills-btn">Skills</p>
+        <p class="nav-link" id="work-btn">Work Experience</p>
+        <p class="nav-link" id="projects-btn">Projects</p>
+        <p class="nav-link" id="contact-btn">Contact</p>
       </div>
 
     </div>
@@ -45,7 +46,7 @@
       <hr class="line">
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skills-section">
       <h2>
         My Top Skills
       </h2>
@@ -90,7 +91,7 @@
     </section>
 
 
-    <section class="work-experience">
+    <section class="work-experience" id="work-section">
       <h1 class="heading">Work Experience</h1>
       <div class="job">
         <img src="pictures/miller-logo.jpg" class="job-pic">
@@ -114,7 +115,7 @@
       <hr class="line">
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects-section">
       <h1 class="projects-title">Recent Projects</h1>
       <div class="projects-container">
         <div class="project-card">
@@ -139,22 +140,28 @@
       <hr class="line">
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact-section">
       <h1>Get In Touch With Me</h1>
       <h4>Use any of these socials (preferred email) or fill out the form!</h4>
 
       <div class="socials-container">
         <button type="button" class="collapse" id="phone-button"></button>
-        <div class="text">(904) 814-9957</div>
+        <div class="text">(904) 814-9957
+          <button class="copy-btn" id="copy-phone" onclick="copyText('(904) 814-9957')"></button>
+        </div>
         <button type="button" class="collapse" id="email-button"></button>
-        <div class="text">williamslandon@ufl.edu</div>
+        <div class="text">williamslandon@ufl.edu
+          <button class="copy-btn" id="copy-email" onclick="copyText('williamslandon@ufl.edu')"></button>
+        </div>
         <button type="button" class="collapse" id="linkdin-button"></button>
-        <div class="text">www.linkedin.com/in/landonwilliams33</div>
+        <div class="text">www.linkedin.com/in/landonwilliams33
+          <button class="copy-btn" id="copy-linkdin" onclick="copyText('www.linkedin.com/in/landonwilliams33')"></button>
+        </div>
       </div>
 
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
+          <form action="https://formspree.io/f/mqkrened" method="POST">
             <div class="form-control">
               <label for="name">Name</label>
               <input
@@ -179,7 +186,7 @@
             <div class="form-control">
               <label for="message">Message</label>
               <textarea
-                id="name"
+                id="message"
                 cols="60"
                 rows="10"
                 name="message"
@@ -193,6 +200,7 @@
               value="Submit"
               id="submit-btn"
               class="submit-btn"
+              onclick="clearInput()"
             />
           </form>
         </div>
@@ -201,4 +209,11 @@
 
     <script src="scripts.js"></script>
   </body>
+  <footer>
+    <p class="copy"> &copy; Copyright 2024</p>
+    <p class="copy">Built By Landon Williams</p>
+    <i class="scroll-up" id="scroll-up">
+      <img src="pictures/up-arrow-icon.png" class="up-arrow-icon">
+    </i>
+  </footer>
 </html>
