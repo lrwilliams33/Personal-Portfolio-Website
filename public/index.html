@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/work-experience.css">
     <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
 
     <title>Twitter Clone</title>
 
@@ -138,7 +139,66 @@
       <hr class="line">
     </section>
 
+    <section class="contact-section">
+      <h1>Get In Touch With Me</h1>
+      <h4>Use any of these socials (preferred email) or fill out the form!</h4>
 
-    <script src="script.js"></script>
+      <div class="socials-container">
+        <button type="button" class="collapse" id="phone-button"></button>
+        <div class="text">(904) 814-9957</div>
+        <button type="button" class="collapse" id="email-button"></button>
+        <div class="text">williamslandon@ufl.edu</div>
+        <button type="button" class="collapse" id="linkdin-button"></button>
+        <div class="text">www.linkedin.com/in/landonwilliams33</div>
+      </div>
+
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="name"
+                cols="60"
+                rows="10"
+                name="message"
+                placeholder="Enter Your Message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
