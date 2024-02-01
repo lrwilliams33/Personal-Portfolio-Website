@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    <title>Twitter Clone</title>
+    <title>Landon William's Portfolio</title>
 
     <div class="nav-bar">
       <div class="name-section">Landon Williams</div>
@@ -30,16 +30,30 @@
   </head>
   <body>
     <section class="hero" id="about">
-      <img src="pictures/Picture of me.jpg" class="hero-img"/>
-      <div class="bio">
-        <h2 class="bio-title">About me</h2>
-        <p class="bio-text">
-          Hi, my name is Landon Williams. I am a sjj fjsfkjksdjf jfksdjkf ksdjfk jdkfjskjf kjsfkjsd skfjk ssfjdksdj skjfk 
-        </p>
+      <div class="hero-img-container">
+        <img src="pictures/Landon-Picture-16-9.jpg" class="hero-img"/>
       </div>
+
+      <h1><span class="auto-type"></span></h1>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>var typed = new Typed(".auto-type", {
+        strings: ["I'm a Software Engineer.^1000", "I'm a Student.^1000", "I'm an Athlete.^1000"],
+        startDelay: 1000,
+        typeSpeed: 50,
+        backSpeed: 50,
+        cursorChar: '',
+        autoInsertCss: true,
+        smartBackspace: true,
+        loop: true,
+        loopcount: Infinity,
+        showCursor: true,
+      })
+      </script>
+
     </section>
+
     <section class="more-about">
-      <h2>More About Me</h2>
+      <h2>About Me</h2>
       <p>One thing about me</p>
       <p>Another thing about me</p>
       <p>Final thing about me (maybe)</p>

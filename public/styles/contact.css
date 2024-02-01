@@ -52,16 +52,31 @@
   height: 1rem;
 }
 
+#phone-button:hover {
+  transform: scale(1.2);
+}
+
+#email-button:hover {
+  transform: scale(1.2);
+}
+
+#linkdin-button:hover {
+  transform: scale(1.2);
+}
+
 #phone-button {
   background-image: url(../pictures/phone-icon.png);
+  transition: transform 0.3s ease-in-out;
 }
 
 #email-button {
   background-image: url(../pictures/email-icon.png);
+  transition: transform 0.3s ease-in-out;
 }
 
 #linkdin-button {
   background-image: url(../pictures/linkdin-icon.png);
+  transition: transform 0.3s ease-in-out;
 }
 
 .contact-section {
