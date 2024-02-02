@@ -1,7 +1,12 @@
+.projects {
+  background-color: rgb(217, 217, 217);
+  padding-top: 2rem;
+}
+
 .projects-title {
   font-size: 35px;
   margin-left: 1rem;
-  margin-top: 3cqmin;
+  margin-top: 0;
 
 }
 

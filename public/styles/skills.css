@@ -1,7 +1,15 @@
 .skills {
   text-align: center;
   margin: auto;
-  margin-top: 3rem;
+  background-color: rgb(217, 217, 217);
+}
+
+.skills-title {
+  padding-top: 5rem;
+}
+
+.icon-wrapper {
+  margin: 0;
 }
 
 .python-icon, .html-icon, .css-icon, .java-icon, .c-icon, .git-icon, .react-icon, .mongo-icon {
@@ -33,7 +41,25 @@
 }
 
 .line {
-  border-color: black;
+  border-color: rgb(222, 222, 222);
   border-width: 0.1rem;
   margin-top: 4rem;
+  margin-bottom: 0;
+}
+
+.skills .icon-wrapper {
+  flex: 1;
+  max-width: 250px;
+}
+
+@media screen and (max-width: 720px) {
+  .skills .icon-wrapper {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .skills .icon-wrapper {
+    flex-basis: calc(50% - 20px);
+  }
 }

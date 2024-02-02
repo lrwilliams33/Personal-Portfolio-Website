@@ -54,9 +54,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const about = document.querySelector("#about-btn");
+  const aboutSection = document.querySelector("#about-section");
+  const aboutSectionPos = aboutSection.offsetTop;
   about.addEventListener("click", () => {
     window.scrollTo({
-      top: 0,
+      top: aboutSectionPos - 100,
       left: 0,
       behavior: "smooth",
     });

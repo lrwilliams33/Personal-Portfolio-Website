@@ -1,8 +1,9 @@
 footer {
-  background-color: rgb(52, 52, 52);
+  background-color: rgb(213, 213, 213);
   padding: 0.5rem;
   text-align: center;
   margin: 2rem 0;
+  margin-bottom: 0;
   
 }
 
@@ -32,7 +33,7 @@ footer {
 }
 
 .up-arrow-icon:hover {
-  background-color: rgb(92, 92, 95);
+  background-color: rgb(191, 191, 191);
   border-radius: 5px;
 }
 

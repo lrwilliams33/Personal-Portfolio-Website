@@ -1,5 +1,5 @@
 .nav-bar {
-  height: 55px;
+  height: 62px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,10 +10,10 @@
   right: 0;
   z-index: 100;
 
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(35, 35, 35);
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(43, 43, 43);
+  border-bottom-color: rgb(60, 60, 60);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -29,6 +29,7 @@
   cursor: pointer;
 
   color: rgb(8, 160, 233);
+  color: white;
 }
 
 .menu {
@@ -39,6 +40,7 @@
   justify-content: center;
   align-items: center;
   color: rgb(8, 160, 233);
+  color: white;
 }
 
 .nav-link {
@@ -49,10 +51,9 @@
 }
 
 .nav-link:hover {
-  color: rgb(111, 186, 221);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.nav-link:click {
-  color: azure;
+.nav-link:active {
+  color: rgb(111, 186, 221);
 }

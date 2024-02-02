@@ -99,12 +99,13 @@
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 3px 10px 3px;
+  margin-bottom: 5rem;
 }
 
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: bold;
-  color: rgb(8, 160, 233);
+  color: rgb(18, 18, 18);
 }
 
 .contact-form-container textarea {
@@ -113,18 +114,18 @@
 }
 
 .contact-form-container .input-field {
-  background-color: rgb(104, 104, 104);;
+  background-color: rgb(205, 205, 205);;
   width: 96.89%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
   border: none;
-  border: 2px outset rgb(8, 160, 233);
+  border: 2px outset rgb(20, 20, 20);
   outline: none;
 }
 
 .input-field::placeholder {
-  color: rgb(173, 173, 173);
+  color: rgb(118, 118, 118);
 }
 
 .input-field {
@@ -135,21 +136,22 @@
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: rgb(8, 160, 233);
-  border: 2px solid rgb(8, 160, 233);
+  background-color: rgb(36, 36, 36);
+  border: 2px solid rgb(29, 29, 29);
   border-radius: 5px;
   font-size: 1rem;
   font-weight: bold;
   transition: 0.3s;
+  color: rgb(200, 200, 200);
 }
 
 .submit-btn:hover {
-  background-color: rgb(8, 69, 123);
-  border: 2px solid rgb(8, 69, 123);
+  background-color: rgb(98, 98, 98);
+  border: 2px solid rgb(98, 98, 98);
   cursor: pointer;
 }
 
 .submit-btn:active {
-  background-color: rgb(99, 194, 238);
-  border-color: rgb(99, 194, 238);
+  background-color: rgb(169, 169, 169);
+  border-color: rgb(169, 169, 169);
 }
